@@ -1,0 +1,25 @@
+{
+  "name": "@unisoftorg/types",
+  "version": "1.0.8",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UniSoftORG/types.git"
+  },
+  "keywords": [],
+  "author": "UniSoft",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
