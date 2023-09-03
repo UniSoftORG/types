@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "../node_modules/.bin/webpack --mode production"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -21,14 +21,5 @@
     "ts-loader": "^9.4.4",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^10.0.4",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.0.4",
-    "@semantic-release/release-notes-generator": "^11.0.7",
-    "noop": "^1.0.1",
-    "semantic-release": "^21.1.1"
   }
 }
